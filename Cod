@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+struct Company {
+    string name;
+    string description;
+    vector<string> tags;
+};
+struct Label {
+    string name;
+    vector<string> keywords;
+};
+
+int main() {
+vector<Label> taxonomy = {
+        {"Health Insurance", {"health", "medical", "hospital"}},
+        {"Auto Insurance", {"car", "auto", "vehicle"}},
+        {"Life Insurance", {"life", "mortgage", "beneficiary"}}
+    };
+For(...){
+If(...){
+...
+}
+}
+Cout<<company.name <<endl;
+Cout<<`` ``<<label;
+
+return 0;
+}
